@@ -1,26 +1,88 @@
-@font-face{
+section {
+    width: 1500px;
+    margin: 0 auto;
+    .container {
+        width: 100%;
+        margin-top: 25px;
+        .col-sm-6.menum {
+            margin-top: 11px;
+            font-size: 20px;
+             :hover {
+                color: #333;
+            }
+        }
+    }
+}
 
+.navbar-brand {
+    .fa {
+        font-size: 30px;
+    }
+    h1 {
+        display: inline-block;
+        color: #414851;
+    }
 }
-.nav-link {
-    color: #ccc;
+
+.nav {
+    .nav-link {
+        color: grey;
+    }
 }
-.fa:before {
+
+.fa::before {
     position: absolute;
-    content:'\f0eb';
+    content: '\f0eb';
     color: #ffffff;
-    font-size: 25px;
-    line-height: 50px;
-    font-family: '';
-    width: 50px;
-    height: 50px;
+    font-size: 35px;
+    line-height: 55px;
+    font-family: 'FontAwesome';
+    width: 55px;
+    height: 55px;
     background: #8dbf41;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
     text-align: center;
-    top: 5px;
-    left: 0;
+    top: 0px;
+    left: -45px;
 }
-.navbar-brand{
-    font-size: 30px;
+
+.menu .float-right {
+    top: 30px;
+}
+
+.image-4 {
+    position: absolute;
+    top: 200px;
+}
+
+.first {
+    background-color: white;
+    width: 100%;
+}
+
+.crsl {
+    top: 100px;
+}
+
+.cards {
+    top: 200px;
+    h1{
+        color: #8dbf41;
+    }
+    h2 {
+        display: inline-block;
+        font: 400 24px/24px 'Open Sans', sans-serif;
+        color: #8dbf41;
+        padding: 15px 18px;
+        border: solid 1px #8dbf41;
+        text-transform: capitalize;
+    }
+}
+.cards2{
+    margin-top:50px;
+}
+.welcome-text{
+    font-size: 25px;
 }
